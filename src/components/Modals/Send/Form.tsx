@@ -5,7 +5,7 @@ import { useChainAdapters } from 'context/ChainAdaptersProvider/ChainAdaptersPro
 import { useModal } from 'context/ModalProvider/ModalProvider'
 import { useWallet } from 'context/WalletProvider/WalletProvider'
 import { AnimatePresence } from 'framer-motion'
-import { bnOrZero } from 'lib/bignumber'
+import { bnOrZero } from 'lib/bignumber/bignumber'
 import React from 'react'
 import { FormProvider, useForm } from 'react-hook-form'
 import {
